@@ -73,7 +73,7 @@ class Actor(Actor):
         self.y -= dy
 
     def point_towards(self, actor):
-        print(self.direction_to(actor))
+        # print(self.direction_to(actor))
         self.angle = self.direction_to(actor)
 
     def move_in_direction(self, dist):
